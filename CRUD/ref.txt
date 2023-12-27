@@ -1,0 +1,13 @@
+# @CRUD_app.route('/refresh')
+# def refresh():
+#     # connect to data base 
+#     app = sqlite3.connect('data.db')
+        
+#     # Create a Cursor object
+#     cursor = app.cursor()
+        
+#     cursor.execute("select *from Products")
+#     # Save the results so we can use them later
+#     Products = cursor.fetchall() 
+
+#     return render_template("CRUD.html" , Products=Products)
